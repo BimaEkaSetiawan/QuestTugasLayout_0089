@@ -48,4 +48,16 @@ fun KartuMahasiswa(
                 modifier = Modifier.size(58.dp)
             )
 
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 12.dp)
+            ) {
+                Text(
+                    text = nama,
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = colorResource(R.color.card_name)
+                )
+
 
