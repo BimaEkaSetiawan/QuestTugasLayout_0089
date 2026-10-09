@@ -114,6 +114,15 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(18.dp))
 
+        names.indices.forEach { index ->
+            KartuMahasiswa(
+                nama = names[index],
+                telepon = phones[index],
+                alamat = addresses[index],
+                warna = colorResource(colors[index])
+            )
+        }
+
 
     }
 }
