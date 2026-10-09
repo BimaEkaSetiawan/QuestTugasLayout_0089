@@ -123,6 +123,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             )
         }
 
+        Spacer(modifier = Modifier.weight(1f))
 
+        Text(
+            text = stringResource(R.string.copy),
+            modifier = Modifier.padding(bottom = 24.dp),
+            fontSize = 12.sp
+        )
     }
 }
