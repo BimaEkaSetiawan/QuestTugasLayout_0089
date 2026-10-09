@@ -2,5 +2,31 @@
 <resources>
     <style name="Theme.ParktikumPertemuan4" parent="android:Theme.Material.Light.NoActionBar" />
 
+    <array name="card_names">
+        <item>@string/nama_0</item>
+        <item>@string/nama_1</item>
+        <item>@string/nama_2</item>
+        <item>@string/nama_3</item>
+    </array>
 
+    <array name="card_phones">
+        <item>@string/univ</item>
+        <item>@string/telepon_1</item>
+        <item>@string/telepon_2</item>
+        <item>@string/telepon_3</item>
+    </array>
+
+    <array name="card_addresses">
+        <item>@string/alamat_0</item>
+        <item>@string/alamat_1</item>
+        <item>@string/alamat_2</item>
+        <item>@string/alamat_3</item>
+    </array>
+
+    <array name="card_colors">
+        <item>@color/card_0_bg</item>
+        <item>@color/card_1_bg</item>
+        <item>@color/card_2_bg</item>
+        <item>@color/card_3_bg</item>
+    </array>
 </resources>
