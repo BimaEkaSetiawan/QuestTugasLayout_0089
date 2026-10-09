@@ -36,6 +36,12 @@ fun KartuMahasiswa(
             containerColor = warna
         )
     ) {
-        )
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            )
     }
 }
