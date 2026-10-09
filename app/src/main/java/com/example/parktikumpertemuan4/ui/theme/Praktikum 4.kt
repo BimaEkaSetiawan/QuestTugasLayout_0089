@@ -100,6 +100,20 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             .padding(top = 70.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            text = stringResource(R.string.prodi),
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold
+        )
+
+        Text(
+            text = stringResource(R.string.univ),
+            fontSize = 15.sp,
+            fontWeight = FontWeight.Bold
+        )
+
+        Spacer(modifier = Modifier.height(18.dp))
+
 
     }
 }
