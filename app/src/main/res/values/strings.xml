@@ -4,5 +4,12 @@
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
 
+    <string name="nama_0">Bima eka</string>
+    <string name="alamat_0">kejajar, Wonosobo</string>
+
+    <string name="nama_1">Haidar sang MC</string>
+    <string name="telepon_1">20240140097</string>
+    <string name="alamat_1">Bawen,Semarang</string>
+
 
 </resources>
