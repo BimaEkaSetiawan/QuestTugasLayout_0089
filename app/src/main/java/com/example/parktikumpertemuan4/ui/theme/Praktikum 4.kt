@@ -71,4 +71,10 @@ fun KartuMahasiswa(
                     fontSize = 14.sp,
                     color = colorResource(R.color.card_address)
                 )
+            }
 
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(58.dp)
+            )
