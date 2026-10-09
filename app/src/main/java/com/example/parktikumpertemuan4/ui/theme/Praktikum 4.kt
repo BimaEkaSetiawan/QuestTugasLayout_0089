@@ -94,4 +94,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
         R.color.card_3_bg
     )
 
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(top = 70.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
 
+    }
+}
