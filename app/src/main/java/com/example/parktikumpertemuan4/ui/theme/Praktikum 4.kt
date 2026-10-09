@@ -78,3 +78,20 @@ fun KartuMahasiswa(
                 contentDescription = null,
                 modifier = Modifier.size(58.dp)
             )
+        }
+    }
+}
+
+@Composable
+fun AktivitasPertama(modifier: Modifier = Modifier) {
+    val names = stringArrayResource(R.array.card_names)
+    val phones = stringArrayResource(R.array.card_phones)
+    val addresses = stringArrayResource(R.array.card_addresses)
+    val colors = intArrayOf(
+        R.color.card_0_bg,
+        R.color.card_1_bg,
+        R.color.card_2_bg,
+        R.color.card_3_bg
+    )
+
+
