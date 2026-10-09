@@ -20,4 +20,22 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.parktikumpertemuan4.R
 
-
+@Composable
+fun KartuMahasiswa(
+    nama: String,
+    telepon: String,
+    alamat: String,
+    warna: Color,
+    modifier: Modifier = Modifier
+) {
+    Card(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 6.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = warna
+        )
+    ) {
+        )
+    }
+}
